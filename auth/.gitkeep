@@ -1,0 +1,3 @@
+const { useMultiFileAuthState } = require("@whiskeysockets/baileys")
+
+const { state, saveCreds } = await useMultiFileAuthState("./auth")
